@@ -1,0 +1,6 @@
+.git
+target
+*.jar
+*.war
+*.zip
+*.tar.gz

@@ -1,0 +1,9 @@
+services:
+  drinkolution:
+    container_name: drinkolution
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    restart: "unless-stopped"
